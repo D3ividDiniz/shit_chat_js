@@ -1,6 +1,4 @@
-.container {
-  padding: 0 2rem;
-}
+
 
 .main {
   min-height: 100vh;
@@ -59,7 +57,6 @@
 .code {
   background: #fafafa;
   border-radius: 5px;
-  padding: 0.75rem;
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
@@ -126,4 +123,32 @@
   .logo img {
     filter: invert(1);
   }
+}
+
+.red,
+.green{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  font-size: 32px;
+  padding: 0 0.8rem;
+  cursor: pointer;
+}
+.red{
+  border: #954747 3px solid;
+  color: #8F0F0F;
+}
+.green{
+  border: #619A4D 3px solid;
+  color: #518249;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 88px;
+  padding: 0 24px;
+  border-bottom: #000 4px solid;
+  box-shadow: 0px 20px 10px rgba(0, 0, 0, 0.2);
 }
